@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 40px;
+  color: black;
+}
+a:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+h1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+h2 {
+  padding: 20px 0px;
+}
+h3 {
+  padding: 20px 0px;
+}
+p {
+  padding: 20px 0px;
+}
+.container {
+  display: flex;
+  padding: 30px;
+}
+.right-side {
+  padding-top: 40px;
+  width: 60%;
+  height: auto;
+}
+.assignment-list {
+  width: 40%;
+  height: auto;
+  display: grid;
+  row-gap: 30px;
+  padding-left: 20px;
+}
+
+.left-side {
+  padding-right: 30px;
+}
+footer {
+  position: absolute;
+  top: calc(100% - 50px);
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
